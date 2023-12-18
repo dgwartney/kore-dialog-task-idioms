@@ -1,0 +1,18 @@
+{
+    "name": "Transfer On Utterance Failure",
+    "envVariables": [
+        {
+            "key": "UTTERANCE_FAILURE_RETRY_COUNT",
+            "value": "2",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "7af64cb1-9431-5a64-b546-8e9cbc339bff"
+            ],
+            "isSecured": false
+        }
+    ]
+}
