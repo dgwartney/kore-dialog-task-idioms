@@ -18,7 +18,7 @@ The respective examples are:
 
 Use the increment import feature of XO to add Dialog Tasks and other configuration to a new or an existing bot.
 
-See [XO VirtualAssistant Help => Import App ](https://developer.kore.ai/docs/process-apps/settings/import-export/#:~:text=your%20Process%20App.-,Import,-App)
+See [XO Help Documentation => Import App](https://developer.kore.ai/docs/process-apps/settings/import-export/#:~:text=your%20Process%20App.-,Import,-App)
 
 ## Content Variables
 
@@ -32,9 +32,9 @@ See [XO VirtualAssistant Help => Import App ](https://developer.kore.ai/docs/pro
 
 ## Dialog Tasks
 
-- Fallback Task
-- Favorite Color
-- Welcome Task 
+- Fallback Task - Increments the number of failed utterances and escalates to an agent when the retries are exceeded.
+- Favorite Color - Requests the user to select their favorite color from list. After two retries of NOT picking one of the colors, the user is escalated to an agent.
+- Welcome Task  - Trigger by the _Welcome Event_ to greet the user
 
 
 ## Example Dialogs
