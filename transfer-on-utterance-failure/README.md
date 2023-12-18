@@ -32,9 +32,9 @@ See [XO Help Documentation => Import App](https://developer.kore.ai/docs/process
 
 ## Dialog Tasks
 
-- Fallback Task - Increments the number of failed utterances and escalates to an agent when the retries are exceeded.
-- Favorite Color - Requests the user to select their favorite color from list. After two retries of NOT picking one of the colors, the user is escalated to an agent.
-- Welcome Task  - Trigger by the _Welcome Event_ to greet the user
+- `Fallback Task` - Increments the number of failed utterances and escalates to an agent when the retries are exceeded.
+- `Favorite Color` - Requests the user to select their favorite color from list. After two retries of NOT picking one of the colors, the user is escalated to an agent.
+- `Welcome Task`  - Trigger by the _Welcome Event_ to greet the user
 
 
 ## Example Dialogs
