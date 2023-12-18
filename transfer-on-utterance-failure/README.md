@@ -4,6 +4,11 @@ Shows two examples of how to respond when do you not get an expected response fr
 repair the conversation by prompting the user but once the number of retries are exceeded the user is escalated
 to an agent via _Agent Transfer_ node.
 
+The respective examples are:
+
+1. Exceeding retries on failure to recognize an utterance which then escalates to an agent.
+2. Exceeding retries when prompting a user for a specific entity and then escalating to an agent.
+
 ## Contents
 
 - `botDefinition.json`
@@ -30,3 +35,17 @@ See [XO VirtualAssistant Help => Import App ](https://developer.kore.ai/docs/pro
 - Fallback Task
 - Favorite Color
 - Welcome Task 
+
+
+## Example Dialogs
+
+### Failed Recognition of Utterance
+
+![](images/utterance-not-recognized.png)
+
+### Unacceptable Value for an Entity
+
+![](images/entity-not-recognized.png)
+
+
+
